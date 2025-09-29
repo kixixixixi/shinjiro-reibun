@@ -108,7 +108,7 @@ const Page: FC = () => {
               textShadow: "2px 2px 4px rgba(0,0,0,0.8)",
               whiteSpace: "nowrap",
               zIndex: 100,
-              animation: "slide 8s linear forwards",
+              animation: "slide 16s linear forwards",
             }}
           >
             {comment.text}
