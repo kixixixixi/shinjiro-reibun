@@ -1,8 +1,8 @@
 import "./globals.css"
 
 export const metadata = {
-  title: "Page title",
-  description: "Page description",
+  title: "進次郎例文ジェネレーター",
+  description: "進次郎構文を自動生成するジェネレーター",
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
