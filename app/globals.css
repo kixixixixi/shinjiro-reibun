@@ -1,9 +1,9 @@
 @keyframes slide {
   from {
-    right: -100%;
+    left: 100%;
   }
   to {
-    right: 200%;
+    left: -100%;
   }
 }
 

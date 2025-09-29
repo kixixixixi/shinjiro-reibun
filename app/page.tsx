@@ -97,18 +97,17 @@ const Page: FC = () => {
         {comments.map((comment) => (
           <div
             key={comment.id}
-            className={`comment-${comment.id}`}
             style={{
               position: "absolute",
               top: comment.top,
-              right: "-100%",
+              left: "100%",
               color: "#f0f0f0",
               fontSize: "1.5rem",
               fontWeight: "bold",
               textShadow: "2px 2px 4px rgba(0,0,0,0.8)",
               whiteSpace: "nowrap",
               zIndex: 100,
-              animation: "slide 16s linear forwards",
+              animation: "slide 8s linear forwards",
             }}
           >
             {comment.text}
