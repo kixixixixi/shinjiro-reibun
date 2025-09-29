@@ -1,0 +1,13 @@
+@keyframes slide {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 200%;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
